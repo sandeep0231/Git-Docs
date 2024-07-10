@@ -54,7 +54,12 @@ Here we are initializing the repository and adding a file to the repository. The
 this means that we have not yet committed the changes but are ready to be committed.
 
 
+#) Commit :-  Here we are committing the changes to the repository. We can see that the changes are now committed to the repository. The -m flag is used to add a message to the 
+commit.
 
+
+>>git commit -m "commit message"
+>>git status
 
 
 
