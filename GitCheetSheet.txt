@@ -138,6 +138,7 @@ When you are done working on a branch, you can merge it back into the main branc
 #) Managing conflicts :-  There is no magic button to resolve conflicts. You have to manually resolve the conflicts. Decide, what to keep and what to discard. VSCode has a built-in merge tool that can help you resolve the conflicts. I personally use VSCode merge tool. Github also has a merge tool that can help you resolve the conflicts but most of the time I handle them in VSCode and it gives me all the options to resolve the conflicts.
 
 Overall it sounds scary to beginners but it is not, it’s all about communication and understanding the code situation with your team members.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #) Rename a branch :- You can rename a branch using the following command:
 >> git branch -m <old-branch-name> <new-branch-name>
@@ -147,8 +148,12 @@ Overall it sounds scary to beginners but it is not, it’s all about communicati
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #) Checkout a branch  :- You can checkout a branch using the following command:
 >> git checkout <branch-name>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Checkout a branch means that you are going to work on that branch. You can checkout any branch you want.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) List all branches :- List all branches means that you are going to see all the branches in your repository.
+   You can list all branches using the following command:
+>> git branch
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
