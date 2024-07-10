@@ -155,6 +155,68 @@ Checkout a branch means that you are going to work on that branch. You can check
    You can list all branches using the following command:
 >> git branch
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                 diff stash and Tags
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Git diff :- The git diff is an informative command that shows the differences between two commits. It is used to compare the changes made in one commit with the changes made in another commit. Git consider the changed versions of same file as two different files. Then it gives names to these two files and shows the differences between them.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Comparing Working Directory and Staging Area :- This command shows the unstaged changes in your working directory compared to the staging area. This command alone will not show you the changes made in the file A and file B, you need to provide options to show the changes.
+>>git diff
+
+#) Comparing Staging Area with Repository : -  >> git diff --staged
+This command shows the changes between your last commit and the staging area (i.e., changes that are staged and ready to be committed).
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Comparing between branches :-  >> git diff <branch-name-one> <branch-name-two>
+>>git diff branch-name-one..branch-name-two
+
+This command compares the difference between two branches. For example:
+Another way to compare the difference between two branches is to use the following command:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Git Stash :- Stash is a way to save your changes in a temporary location. It is useful when you want to make changes to a file but don’t want to commit them yet. You can then come back to the file later and apply the changes.
+
+Conflicting changes will not allow you to switch branches without committing the changes. Another alternative is to use the git stash command to save your changes in a temporary location.
+>>git stash
+
+This command saves your changes in a temporary location. It is like a stack of changes that you can access later.
+
+#)Naming the stash :- ou can also name the stash by using the following command:
+>>git stash save "work in progress on X feature"
+
+
+#)View the stash list :- You can view the list of stashes by using the following command:
+>> git stash list
+
+#) Apply the stash :- You can apply the stash by using the following command:
+>> git stash apply
+
+#) Apply the specific stash :- You can apply the specific stash by using the following command:
+>>git stash apply stash@{0}
+Here stash@{0} is the name of the stash. You can use the git stash list command to get the name of the stash.
+
+
+#) Drop the stash :- You can drop the stash by using the following command:
+>>git stash drop
+
+#) Applying and dropping the stash :-  You can apply and drop the stash by using the following command:
+
+>>git stash pop
+
+#) Applying stash to a specific branch :- You can apply the stash to a specific branch by using the following command:
+>>git stash apply stash@{0} <branch-name>
+
+#) Clearing the stash :- You can clear the stash by using the following command:
+>>git stash clear
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Git Tags :- 
+Tags are a way to mark a specific point in your repository. They are useful when you want to remember a specific version of your code or when you want to refer to a specific commit. Tags are like sticky notes that you can attach to your commits.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
