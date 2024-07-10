@@ -76,12 +76,17 @@ fix the issue. This is important for maintaining a clean and organized history i
 #) change default code editor : - You can change the default code editor in your system to vscode. To do this, you can use the following command:
 >> git config --global core.editor "code --wait"
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) gitignore ::-  Gitignore is a file that tells git which files and folders to ignore. It is a way to prevent git from tracking certain files or folders. You can create a 
+gitignore file and add list of files and folders to ignore by using the following command:
 
-
+Example: 
+node_modules
+.env
+.vscode
+Now, when you run the git status command, it will not show the node_modules and .vscode folders as being tracked by git.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
+NOTES :- Sometime we create a empty folder and this empty folder is by default  not track by git but we want to track it also  so we have to create a '.gitkeep' file
+        inside a empty folder.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
