@@ -237,8 +237,27 @@ This command lists all the tags in your repository.
 #) Delete tag on remote repository :- You can delete a tag on a remote repository using the following command:
 >>git push origin :<tag-name>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+                                                    ##**Rebase and reflog**##
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Rebase in git :-  Rebase is a Git command that helps you move or combine a series of commits onto a new base commit.
+Git rebase is a powerful Git feature used to change the base of a branch. It effectively allows you to move a branch to a new starting point, usually a different commit, by “replaying” the commits from the original base onto the new base. This can be useful for keeping a cleaner, linear project history.
+
+Some people like to use rebase over the merge command because it allows you to keep the commit history cleaner and easier to understand. It also allows you to make changes to the code without affecting the original branch.
+
+*) Merge commits
+A merge commit is a commit that combines two or more commits into one. It is created when you merge two or more branches into a single branch. The merge commit contains all the changes from the original branches, and it is used to keep the project history clean and easy to understand.
+
+*) Rebase :-Rebase is a powerful tool in Git that allows you to move a branch to a new starting point. It effectively replays the commits from the original base onto the new base. This can be useful for keeping a cleaner, linear project history.
+
+Here’s a flow example of using git rebase with all the commands involved:
+
+Suppose you have a feature branch called feature-branch that you want to rebase onto the main branch.
+
+
+Ensure you are on the branch you want to rebase: - 
+>>git checkout feature-branch
+>>git rebase main
+note:- we can not run rebase cmd on main and master branch.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
