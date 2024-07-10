@@ -23,8 +23,8 @@ git config --list
 This will show you all the settings that you have changed.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Creating a repository : - Creating a repository is a process of creating a new folder on your system and initializing it as a git repository. It’s just regular folder to code 
-your project, you are just asking git to track it. To create a repository, you can use the following command:
+#) Creating a repository : - Creating a repository is a process of creating a new folder on your system and initializing it as a git repository. It’s just regular folder to 
+     code your project, you are just asking git to track it. To create a repository, you can use the following command:
 
 Command: - 
 git status
@@ -33,10 +33,54 @@ git init
 *) git status :-  command will show you the current state of your repository.
 *) git init :- command will create a new folder on your system and initialize it as a git repository. This adds a hidden .git folder to your project.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Commit :- commit is a way to save your changes to your repository. It is a way to record your changes and make them permanent. You can think of a commit as a snapshot of 
+   your code at a particular point in time. When you commit your changes, you are telling git to save them in a permanent way. This way, you can always go back to that point in 
+   time and see what you changed.
+
+Flow like:-     Write -->Add -->Commit 
 
 
-
-
+#) Complete git flow :-- When you want to track a new folder, you first use init command to create a new repository. Then you can use add command to add the folder to the 
+repository. After that you can use commit command to save the changes. Finally you can use push command to push the changes to github. Of course there is more to it but this is 
+the basic flow.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Stage :- Stage is a way to tell git to track a particular file or folder. Following command for use :
+   
+                 >>git init
+                 >>git add <file> <file2>
+                 >>git status
+
+Here we are initializing the repository and adding a file to the repository. Then we can see that the file is now being tracked by git. Currently our files are in staging area, 
+this means that we have not yet committed the changes but are ready to be committed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
