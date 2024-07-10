@@ -1,1 +1,42 @@
+#) Check Your git Version -> To check git version ,you can run the following comand:
+   git --version
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Repository :- A Repository is a collection of files and directories that are stored together. It is a way to store and  manage your code . It just like a normal folder.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#) Your config settings :- Github has a lot of settings that you can change. You can change your username, email, and other settings. Whenever you checkpoint your changes, git 
+will add some information about your such as your username and email to the commit.
+
+config file that stores all the settings that you have changed. You can make settings like what editor you would like to use etc. There are some global settings and some 
+repository specific settings.
+
+Let’s setup your email and username in this config file.-
+
+Command for configration your setup for login into git-
+
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+
+
+Now you can check your config settings:----
+git config --list
+
+This will show you all the settings that you have changed.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Creating a repository : - Creating a repository is a process of creating a new folder on your system and initializing it as a git repository. It’s just regular folder to code 
+your project, you are just asking git to track it. To create a repository, you can use the following command:
+
+Command: - 
+git status
+git init
+
+*) git status :-  command will show you the current state of your repository.
+*) git init :- command will create a new folder on your system and initialize it as a git repository. This adds a hidden .git folder to your project.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
