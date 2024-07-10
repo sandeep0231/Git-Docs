@@ -139,11 +139,14 @@ When you are done working on a branch, you can merge it back into the main branc
 
 Overall it sounds scary to beginners but it is not, it’s all about communication and understanding the code situation with your team members.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+#) Rename a branch :- You can rename a branch using the following command:
+>> git branch -m <old-branch-name> <new-branch-name>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+#) Delete a branch :- You can delete a branch using the following command:
+>> git branch -d <branch-name>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+#) Checkout a branch  :- You can checkout a branch using the following command:
+>> git checkout <branch-name>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
